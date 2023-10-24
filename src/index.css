@@ -23,7 +23,7 @@
     @apply text-[26px] leading-[36px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor;
   }
 
-  .text_para {
+  .text__para {
     @apply lg:text-[18px] lg:leading-[30px] font-[400] text-textColor lg:mt-[18px] text-[16px] leading-7 mt-3;
   }
 
@@ -31,23 +31,6 @@
     @apply bg-gradient-to-tr from-cyan-200 to-indigo-400 bg-no-repeat bg-center bg-cover h-[100px] leading-[100px];
   }
 }
-
-/*@media only screen and (max-width: 1024px) {*/
-
-/*  !*section {*!*/
-/*  !*  @apply py-[35px];*!*/
-/*  !*}*!*/
-/*}*/
-
-/*@media only screen and (max-width: 1024px) {*/
-/*  !*.heading {*!*/
-/*  !*  @apply text-[26px] leading-[36px];*!*/
-/*  !*}*!*/
-
-/*  .text_para {*/
-/*    @apply text-[16px] leading-7 mt-3;*/
-/*  }*/
-/*}*/
 
 body {
   margin: 0;
