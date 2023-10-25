@@ -1,4 +1,4 @@
-import React, { JSX } from 'react';
+import React from 'react';
 import { BsCameraVideo } from "react-icons/bs";
 import avatar from '../../assets/images/avatar.jpg';
 import lake from '../../assets/images/lake.webp';
@@ -12,7 +12,7 @@ import avatarImage2 from '../../assets/images/info_card_250x150.webp';
 import { Link } from "react-router-dom";
 import { RoutePaths } from "../../routePaths";
 import { ArrowLink } from "../../components/arrow-link/ArrowLink";
-import { ServiceCard, ServiceCardProps } from "../../components/service-card/ServiceCard";
+import { ServiceCard } from "../../components/service-card/ServiceCard";
 import { technicians } from "../../__mock__/technicians";
 import { serviceCards } from "../../__mock__/serviceCards";
 import { TechicianCard } from "../../components/technician-card/TechicianCard";
